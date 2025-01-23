@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.body{
+    font-family: sans-serif;
+}
+
 .header{
     background-color: white;
     background-size: 300px;
@@ -13,4 +17,38 @@
 
 .body{
     background-color: whitesmoke;
+}
+
+.container{
+    width: 60%;
+    margin: 35px auto;
+    /* debug */
+    /* border: 1px solid black; */
+}
+
+.white-block{
+    background-color: white;
+    padding: 10px 50px;
+}
+
+.radius-top{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.filled{
+    background-color: rgb(64, 127, 252);
+    /* border: 1px solid  rgb(64, 127, 252);
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 13px; */
+}
+
+.tag{
+    border: 1px solid  rgb(64, 127, 252);
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 13px;
 }
