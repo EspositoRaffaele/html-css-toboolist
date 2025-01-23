@@ -1,0 +1,16 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: white;
+    background-size: 300px;
+    padding: 6px 20px;
+}
+
+.body{
+    background-color: whitesmoke;
+}
