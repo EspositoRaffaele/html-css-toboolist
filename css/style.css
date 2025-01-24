@@ -4,45 +4,48 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* FONT TYPE AND BACKGROUND PAGE COLOR */
 .body{
     font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
 }
-
+/* HEADER */
 .header{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     background-size: 300px;
     padding: 6px 20px;
 }
-
-.body{
-    background-color: whitesmoke;
-}
-
+/* WHITE BLOCK SIZE AND COLOR*/
 .block-size{
-    width: 60%;
+    width: 70%;
     margin: 35px auto;
     /* debug */
     /* border: 1px solid black; */
 }
 
 .white-block{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
+/* END WHITE BLOCK SIZE AND COLOR */
 
+/* RADIUS BORDER TOP BOX */
 .radius-top{
     padding: 10px 50px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
+/* END RADIUS BORDER TOP BOX */
 
+/* RADIUS BORDER BOTTOM BOX */
 .radius-bottom{
     margin-top: 2px;
-    padding: 0px 50px;
+    padding: 20px 50px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
+/* END RADIUS BORDER BOTTOM BOX */
 
+/* COLOR FILL FOR TOP TAG */
 .filled{
     background-color: rgb(64, 127, 252);
     /* border: 1px solid  rgb(64, 127, 252);
@@ -51,7 +54,9 @@
     border-radius: 6px;
     font-size: 13px; */
 }
+/* END COLOR FILL FOR TOP TAG */
 
+/* TOP TAG */
 .tag{
     border: 1px solid  rgb(64, 127, 252);
     padding: 6px 12px;
@@ -59,7 +64,9 @@
     border-radius: 6px;
     font-size: 13px;
 }
+/* END TOP TAG */
 
+/* LIST TAG */
 .tag-2{
     color: white;
     padding: 4px 10px;
@@ -67,7 +74,9 @@
     border-radius: 10px;
     font-size: 10px;
 }
+/* END LIST TAG */
 
+/* COLOR TAGS */
 .editorial{
     background-color: rgb(64, 127, 252);
     border: 1px solid  rgb(64, 127, 252);
@@ -88,33 +97,56 @@
     border: 1px solid  rgb(198, 97, 3);
 }
 
+.website{
+    background-color: rgb(255, 20, 147);
+    border: 1px solid rgb(255, 20, 147);
+}
+
+.sales{
+    background-color: rgb(174, 224, 8);
+    border: 1px solid rgb(174, 224, 8);
+}
+/* END COLOR TAG */
+
+/* FONT STYLE LIST TITLES */
 .ul-style{
     list-style: none;
     font-weight: 500;
     color: rgb(70, 70, 70);
 }
+/* END FONT STYLE LIST TITLES */
 
-.h3{
-    /* margin-top: 10px; */
+/* PADDING LIST ROW */
+.ul-style li{
+    padding: 10px 0px;
 }
 
+/* .h3{
+    margin-top: 10px;
+} */
+
+/* CIRCLE DESIGN */
 .circle{
     font-size: 10px;
-    padding: 2px 4px;
+    padding: 1.5px 3px;
     border-radius: 50%;
+    margin-right: 6px;
 }
+/* END CIRCLE DESIGN */
 
+/* CIRCLE COLOR GREEN */
 .green{
     border: 1px solid green;
     color: green;
 }
 
+/* CIRCLE COLOR RED */
 .red{
     border: 1px solid red;
     color: red;
 }
 
-.list-padding, li{
+/* .list-padding, li{
     padding: 12px 0px;
-    
-}
+
+} */
