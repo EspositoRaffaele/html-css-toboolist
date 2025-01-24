@@ -19,7 +19,7 @@
     background-color: whitesmoke;
 }
 
-.container{
+.block-size{
     width: 60%;
     margin: 35px auto;
     /* debug */
@@ -28,12 +28,19 @@
 
 .white-block{
     background-color: white;
-    padding: 10px 50px;
 }
 
 .radius-top{
+    padding: 10px 50px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+}
+
+.radius-bottom{
+    margin-top: 2px;
+    padding: 0px 50px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 .filled{
@@ -51,4 +58,63 @@
     display: inline-block;
     border-radius: 6px;
     font-size: 13px;
+}
+
+.tag-2{
+    color: white;
+    padding: 4px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.editorial{
+    background-color: rgb(64, 127, 252);
+    border: 1px solid  rgb(64, 127, 252);
+}
+
+.q1-goals{
+    background-color: rgb(177, 3, 193);
+    border: 1px solid  rgb(177, 3, 193);
+}
+
+.recruiting{
+    background-color: rgb(0, 181, 72);
+    border: 1px solid  rgb(0, 181, 72);
+}
+
+.mobile{
+    background-color: rgb(198, 97, 3);
+    border: 1px solid  rgb(198, 97, 3);
+}
+
+.ul-style{
+    list-style: none;
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+}
+
+.h3{
+    /* margin-top: 10px; */
+}
+
+.circle{
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+
+.green{
+    border: 1px solid green;
+    color: green;
+}
+
+.red{
+    border: 1px solid red;
+    color: red;
+}
+
+.list-padding, li{
+    padding: 12px 0px;
+    
 }
